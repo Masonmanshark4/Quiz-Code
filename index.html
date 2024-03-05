@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <script src="./assets/Java/script.js" defer></script>
+    
+</head>
+<body>
+    <h1>Quiz Game</h1>
+    <button id="startButton">Start Game</button>
+    <div id="quizContainer" style="display: none;">
+        <div id="question"></div>
+        <div id="choices"></div> 
+        <button id="submitAnswer">Submit Answer</button>
+        <div id="timer">Time: <span id="timeLeft">60</span> seconds</div>
+    </div>
+    <div id="gameOverContainer" style="display: none;">
+        <h2>Game Over!</h2>
+        <label for="initials">Enter Your Initials:</label>
+        <input type="text" id="initials">
+        <button id="saveScore">Save Score</button>
+        <!--<button id="restartButton">Restart Quiz</button>-->
+    </div>
